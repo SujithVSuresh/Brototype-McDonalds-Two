@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+
+/*-------------- Header -------------- */
+header{
+
+    display: flex;
+ 
+     padding: 15px 0px 10px 0px;  
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.05);
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.navContainer{
+    padding-top: 0px;
+    margin-left: 65px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.topNavContainer{
+    /* background-color: brown; */
+     display: flex;
+    margin-bottom: 25px;
+}
+
+.topNavContainer a{
+    font-size: 15px;
+}
+
+.topNav{
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.topRightNav{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+}
+
+/* #search{
+    background-color: crimson;
+} */
+
+.bottomNav a, .topNav a, #search a, #btn a{
+    text-decoration: none;
+        color: black;
+}
+
+.bottomNav .nonDown, .down, .topNav .nonDown, #search a, #location a{
+    margin-right: 25px;
+ 
+}
+
+
+.bottomNav div{
+    display: inline;
+    
+   
+}
+
+#search, #location{
+    display: flex;
+}
+
+  .topRightNav button{
+
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: #ffbc0d;
+    
+}  
+
+#search a, #location a{
+    margin-left: 5px;
+}
+
+.down{
+ 
+    display: flex;
+    align-items: center;
+}
+
+
+/*------------------- Section ------------------- */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    /* width: 63%; */
+    margin: 80px 0 80px 0;
+}
+
+.cardRight{
+    margin-left: 35px;
+    width: 375px;
+}
+
+.cardRight h1{
+    font-size: 36px;   
+    line-height: 40px;
+    font-weight:900;
+    margin:10px 0 20px 0
+    
+}
+
+.cardRight p{
+    font-size: 14px;
+    line-height: 24px;
+    margin:20px 0 20px 0
+}
+
+
+.cardRight h6{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    margin:20px 0 70px 0;
+
+}
+
+.cardRight a{
+    background-color: #ffbc0d;
+    padding: 17px 33px 17px 33px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+/* ------------Footer------------- */
+footer{
+    padding: 20px 30px 100px 30px;
+}
+
+.footerLinkContainer{
+ 
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 400px 0 400px; */
+    margin: 35px;
+}
+
+.footerLinkContainer h5{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.footerLinkContainer div{
+    width: 200px;
+    line-height: 25px;
+}
+
+.footerLinkContainer p{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.socialLinkContainer{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 400px 0 400px; */
+    margin: 35px;
+}
+
+.copyLinkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 20px 400px 0 400px; */
+
+}
+
+.leftSocialContainer img{
+    margin-right: 18px;
+}
+
+.copyLinkContainer span{
+    margin-right: 20px;
+    text-align: right;
+
+}
+
+.copyLeftContainer{
+  
+    line-height: 40px;
+    width: 52%;
+    margin: 35px 0 35px 35px;
+   
+}
+
+.copyRightContainer{
+    /* width: 30%; */
+    margin: 35px 0 35px 0;
+    display: flex;
+
+}
+.copyRightContainer span{
+    margin-left: 50px;
+}
+
+.copyright{
+    text-align: right;
+    display: inline;
+}
+
+
+
+
+
