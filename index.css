@@ -154,9 +154,11 @@ footer{
 .footerLinkContainer{
  
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
     /* padding: 20px 400px 0 400px; */
     margin: 35px;
+    
 }
 
 .footerLinkContainer h5{
@@ -168,6 +170,7 @@ footer{
 .footerLinkContainer div{
     width: 200px;
     line-height: 25px;
+    /* margin: 0 60px 0 60px; */
 }
 
 .footerLinkContainer p{
@@ -177,22 +180,41 @@ footer{
 
 .socialLinkContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     /* padding: 20px 400px 0 400px; */
     margin: 35px;
 }
 
+/* .socialLinkContainer div{
+    margin: 0 60px 0 60px;
+} */
+
 .copyLinkContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     /* padding: 20px 400px 0 400px; */
 
+
+}
+
+.services, .community{
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 .leftSocialContainer img{
     margin-right: 18px;
 }
+
+.leftSocialContainer{
+    margin-right: 240px;
+}
+
+.rightSocialContainer{
+    margin-left: 240px;
+}
+
 
 .copyLinkContainer span{
     margin-right: 20px;
@@ -204,13 +226,13 @@ footer{
   
     line-height: 40px;
     width: 52%;
-    margin: 35px 0 35px 35px;
+    margin: 35px 50px 35px 35px;
    
 }
 
 .copyRightContainer{
     /* width: 30%; */
-    margin: 35px 0 35px 0;
+    margin: 35px 0 35px 50px;
     display: flex;
 
 }
